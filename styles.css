@@ -1,0 +1,205 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.banner {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(https://static.vecteezy.com/system/resources/previews/006/852/804/non_2x/abstract-blue-background-simple-design-for-your-website-free-vector.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+	
+	
+.navbar {
+	width: 85%;
+	margin: auto;
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 100px;
+	cursor: pointer;
+}
+
+.navbar ul li{
+	list-style:none;
+	display:inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration:none;
+	color:white;
+	text-transform:uppercase;
+}
+
+.navbar ul li::after{
+	content: "";
+	height: 3px;
+	width: 0%;
+	background: #C4F400;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	transition: 0.5s;
+}
+
+.navbar ul li:hover:after{
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	position: absolute;
+	top: 45%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+}
+
+
+
+
+body{
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#calculator{
+	font-family: Arial, sans serif;
+	background-color: #101527;
+	border-radius: 15px;
+	max-width: 500px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#display{
+	width: 100%;
+	padding: 20px;
+	font-size: 5rem;
+	text-align: left;
+	border: none;
+	background-color: #181D2E;
+	color: white;
+}
+	
+
+#keys{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	padding: 25px;
+}
+	
+button{
+	width: 100px;
+	height: 70px;
+	border-radius: 50px;
+	border: none;
+	background-color: #213478;
+	color: white;
+	font-size: 3rem;
+	font-weight: bold;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #2A4195;
+}
+button:active{
+	background-color: #2F49A9;
+}
+.operator-btn{
+	background-color: #000B8C;
+}
+.operator-btn:hover{
+	background-color: #000EB6;
+}
+.operator-btn:active{
+	background-color: #0012EA;
+}
+
+.Leaf {
+	padding: 5px;
+	opacity: 0.5;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	border: 20px solid;
+	border-color: White;
+	padding: 5px;
+}
+
+.filipino {
+	padding: 5px;
+	opacity: 0.5;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	border: 20px solid;
+	border-color: White;
+	padding: 5px;
+}
+.lessonjava {
+	padding: 5px;
+	opacity: 0.5;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	border: 20px solid;
+	border-color: White;
+	padding: 5px;
+}
+.lung {
+	padding: 5px;
+	opacity: 0.5;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	border: 20px solid;
+	border-color: White;
+	padding: 5px;
+}
+.Tangere {
+	padding: 5px;
+	opacity: 0.5;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	border: 20px solid;
+	border-color: White;
+	padding: 5px;
+}
+.Jose {
+	padding: 5px;
+	opacity: 0.5;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	border: 20px solid;
+	border-color: White;
+	padding: 5px;
+}
+h2 {
+	color: white;
+	font-family: Monaco;
+	text-align: center;
+
+	
